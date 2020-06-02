@@ -74,6 +74,5 @@ vector<string> split_string(string input_string) {
     }
 
     splits.push_back(input_string.substr(i, min(pos, input_string.length()) - i + 1));
-
     return splits;
 }
